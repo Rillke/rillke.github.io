@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://Rillke.github.io/sitemap.xml 
+Sitemap: http://rillke.github.io/sitemap.xml 
