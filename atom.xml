@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Rillke]]></title>
-  <link href="http://rillke.github.io/atom.xml" rel="self"/>
-  <link href="http://rillke.github.io/"/>
-  <updated>2014-10-18T22:36:55+02:00</updated>
-  <id>http://rillke.github.io/</id>
+  <link href="http://blog.rillke.com/atom.xml" rel="self"/>
+  <link href="http://blog.rillke.com/"/>
+  <updated>2014-10-18T23:39:21+02:00</updated>
+  <id>http://blog.rillke.com/</id>
   <author>
     <name><![CDATA[Rainer Rillke]]></name>
     
