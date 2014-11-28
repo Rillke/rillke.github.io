@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Gsoc | Rillke]]></title>
+  <link href="http://blog.rillke.com/blog/categories/gsoc/atom.xml" rel="self"/>
+  <link href="http://blog.rillke.com/"/>
+  <updated>2014-11-28T16:18:17+01:00</updated>
+  <id>http://blog.rillke.com/</id>
+  <author>
+    <name><![CDATA[Rainer Rillke]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Summer of Code – What Can You Achieve?]]></title>
+    <link href="http://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
+    <updated>2014-11-28T16:08:57+01:00</updated>
+    <id>http://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
+    <content type="html"><![CDATA[<h1>Google summer of code – What can you achieve?</h1>
+]]></content>
+  </entry>
+  
+</feed>

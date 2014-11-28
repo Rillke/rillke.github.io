@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Rillke]]></title>
-  <link href="http://blog.rillke.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Students | Rillke]]></title>
+  <link href="http://blog.rillke.com/blog/categories/students/atom.xml" rel="self"/>
   <link href="http://blog.rillke.com/"/>
   <updated>2014-11-28T16:18:17+01:00</updated>
   <id>http://blog.rillke.com/</id>
@@ -12,16 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Brazil in Pictures]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/"/>
-    <updated>2014-11-28T16:17:18+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures</id>
-    <content type="html"><![CDATA[<iframe src="https://www.flickr.com/photos/rillke/14939106903/in/set-72157646495502983/player/" width="640" height="271" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Summer of Code – What Can You Achieve?]]></title>
