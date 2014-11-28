@@ -1,0 +1,8 @@
+figure.codepen {
+	border: 1px dashed #ccc;
+}
+figure.codepen figcaption {
+	font-size: 0.8em;
+	margin: .2em;
+	margin-top: -0.5em;
+}

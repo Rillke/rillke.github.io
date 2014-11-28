@@ -57,8 +57,7 @@ var flick = {
 				case 'IFRAME':
 					$elem
 						.attr('width', maxWidth)
-						.attr('height', newH)
-						.attr('src', $elem.attr('src'));
+						.attr('height', newH);
 					break;
 				case 'IMG':
 					var newValues = flick.getUrlForSize(sizes, maxWidth, $elem.attr('src'));

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Rillke]]></title>
-  <link href="http://blog.rillke.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Embed | Rillke]]></title>
+  <link href="http://blog.rillke.com/blog/categories/embed/atom.xml" rel="self"/>
   <link href="http://blog.rillke.com/"/>
   <updated>2014-11-28T22:51:42+01:00</updated>
   <id>http://blog.rillke.com/</id>
@@ -38,8 +38,7 @@ Most of its services are for free and I never felt the need for a paid account.<
 </ul>
 
 
-<p>Let&rsquo;s have a closer look at the iframe offered for embedding:</p>
-
+<p>Let&rsquo;s have a closer look at the iframe offered for embedding:
 <figure class='code'><figcaption><span>Flickr embed snippet </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -49,18 +48,26 @@ Most of its services are for free and I never felt the need for a paid account.<
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;iframe</span>
-</span><span class='line'>  <span class="na">src=</span><span class="s">&quot;https://www.flickr.com/photos/rillke/15282064709/in/set-72157648078805150/player/&quot;</span>
-</span><span class='line'>  <span class="na">width=</span><span class="s">&quot;640&quot;</span>
-</span><span class='line'>  <span class="na">height=</span><span class="s">&quot;480&quot;</span>
-</span><span class='line'>  <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span>
-</span><span class='line'>  <span class="na">allowfullscreen</span> <span class="na">webkitallowfullscreen</span> <span class="na">mozallowfullscreen</span>
-</span><span class='line'>  <span class="na">oallowfullscreen</span> <span class="na">msallowfullscreen</span><span class="nt">&gt;</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;iframe</span>
+</span><span class='line'>    <span class="na">src=</span><span class="s">&quot;https://www.flickr.com/photos/rillke/15282064709/in/set-72157648078805150/player/&quot;</span>
+</span><span class='line'>    <span class="na">width=</span><span class="s">&quot;640&quot;</span>
+</span><span class='line'>    <span class="na">height=</span><span class="s">&quot;480&quot;</span>
+</span><span class='line'>    <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span>
+</span><span class='line'>    <span class="na">allowfullscreen</span> <span class="na">webkitallowfullscreen</span> <span class="na">mozallowfullscreen</span>
+</span><span class='line'>    <span class="na">oallowfullscreen</span> <span class="na">msallowfullscreen</span><span class="nt">&gt;</span>
 </span><span class='line'><span class="nt">&lt;/iframe&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span>
 </span></code></pre></td></tr></table></div></figure>
-
-
-<p><small>The <code>*allowfullscreen</code> attributes are there to allow visitors to open the slideshow
+<small>The <code>*allowfullscreen</code> attributes are there to allow visitors to open the slideshow
 in <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_full_screen_mode#When_a_fullscreen_request_fails">full screen mode</a>.
 </small></p>
 
@@ -71,9 +78,9 @@ in <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_ful
 Wouldn&rsquo;t it be a great opener for your page or post? Here is how:</p>
 
 <p>It is fairly simple to change its size dynamically, so it uses a specified percentage of the available width inside its container and preserves its aspect ratio,
-<a href="//stackoverflow.com/a/12121309">using purely CSS</a>.</p>
+<a href="//stackoverflow.com/a/12121309">using purely CSS</a>.
+<figure class="codepen"></p>
 
-<figure class="codepen">
 <iframe
     height='305'
     scrolling='no'
@@ -85,19 +92,20 @@ Wouldn&rsquo;t it be a great opener for your page or post? Here is how:</p>
     See the Pen <a href='http://codepen.io/Rillke/pen/xbGvKO/'>xbGvKO</a> by Rainer Rillke
     (<a href='http://codepen.io/Rillke'>@Rillke</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
-<figcaption>This iframe is not resizable because CodePen decided to limit the size on their side.
-Thus, adding dynamic resize features here wouldn&#8217;t make sense.</figcaption>
-</figure>
 
+
+<p><figcaption>This iframe is not resizable because CodePen decided to limit the size on their side.
+Thus, adding dynamic resize features here wouldn&rsquo;t make sense.</figcaption>
+</figure></p>
 
 <p>Hurray! Eeek, wait, really? There is a hardcoded aspect ratio and the CSS code will have to be placed into a style tag or onto a loaded stylesheet.
 The reason is the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after"><code>:after</code> pseudo-element</a>,
 which does not exist and therefore has no adjustable style tag.
 Well, this is certainly a clean way and if your images all share the same aspect ratio, or you have a limited set of aspect ratios, not a big deal.
 Still, one could go the not-so-clean way utilizing a dummy element, dropping the aspect ratio from the style tag and throwing it into
-the style attribute of the dummy:</p>
+the style attribute of the dummy:
+<figure class="codepen"></p>
 
-<figure class="codepen">
 <iframe
     height='305'
     scrolling='no'
@@ -109,8 +117,9 @@ the style attribute of the dummy:</p>
     See the Pen <a href='http://codepen.io/Rillke/pen/azOeZm/'>azOeZm</a> by Rainer Rillke
     (<a href='http://codepen.io/Rillke'>@Rillke</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
-</figure>
 
+
+<p></figure></p>
 
 <p>But wait, what about image quality while increasing the ifame&rsquo;s size? We are in safe hands: Interestingly, Flickr considered that and will load a bigger image on demand.</p>
 
@@ -131,7 +140,7 @@ That is where we&rsquo;ll have to bring JavaScript into play.</p>
 </ul>
 
 
-<figure class='code'><figcaption><span>Exemplary usage of flick.js </span></figcaption>
+<p><figure class='code'><figcaption><span>Exemplary usage of flick.js </span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -147,14 +156,22 @@ That is where we&rsquo;ll have to bring JavaScript into play.</p>
 <span class='line-number'>13</span>
 <span class='line-number'>14</span>
 <span class='line-number'>15</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;iframe</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;iframe</span>
 </span><span class='line'>  <span class="na">class=</span><span class="s">&quot;rlk-autosize rlk-fullwidth&quot;</span>
 </span><span class='line'>  <span class="na">src=</span><span class="s">&quot;//www.flickr.com/photos/rillke/14939106903/in/set-72157646495502983/player/&quot;</span>
 </span><span class='line'>  <span class="na">width=</span><span class="s">&quot;640&quot;</span> <span class="na">height=</span><span class="s">&quot;271&quot;</span>
 </span><span class='line'>  <span class="na">frameborder=</span><span class="s">&quot;0&quot;</span>
 </span><span class='line'>  <span class="na">allowfullscreen</span> <span class="na">webkitallowfullscreen</span> <span class="na">mozallowfullscreen</span> <span class="na">oallowfullscreen</span> <span class="na">msallowfullscreen</span><span class="nt">&gt;</span>
 </span><span class='line'><span class="nt">&lt;/iframe&gt;</span>
-</span><span class='line'><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;//www.flickr.com/photos/rillke/15282064709&quot;</span> <span class="na">title=</span><span class="s">&quot;Ilhabela by Rainer Rillke, on Flickr&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;//www.flickr.com/photos/rillke/15282064709&quot;</span> <span class="na">title=</span><span class="s">&quot;Ilhabela by Rainer Rillke, on Flickr&quot;</span><span class="nt">&gt;</span>
 </span><span class='line'><span class="nt">&lt;img</span>
 </span><span class='line'>  <span class="na">class=</span><span class="s">&quot;rlk-autosize rlk-fullwidth&quot;</span>
 </span><span class='line'>  <span class="na">src=</span><span class="s">&quot;//farm3.staticflickr.com/2948/15282064709_d93402d639_z.jpg&quot;</span>
@@ -162,46 +179,15 @@ That is where we&rsquo;ll have to bring JavaScript into play.</p>
 </span><span class='line'>  <span class="na">alt=</span><span class="s">&quot;Ilhabela&quot;</span>
 </span><span class='line'>  <span class="na">data-sizes=</span><span class="s">&#39;{&quot;240&quot;:&quot;d93402d639_m&quot;,&quot;320&quot;:&quot;d93402d639_n&quot;,&quot;500&quot;:&quot;d93402d639&quot;,&quot;640&quot;:&quot;d93402d639_z&quot;,&quot;800&quot;:&quot;d93402d639_c&quot;,&quot;1024&quot;:&quot;d93402d639_b&quot;,&quot;1600&quot;:&quot;28680b1641_h&quot;,&quot;2000&quot;:&quot;a3523f02e3_o&quot;}&#39;</span><span class="nt">&gt;</span>
 </span><span class='line'><span class="nt">&lt;/a&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
+</span></code></pre></td></tr></table></div></figure></p>
 
-
-<p>How about a live example? Check out <a href="http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/">Brazil in Pictures</a>.</p>
+<p>How about a live example? Check out <a href="/blog/2014/11/28/brazil-in-pictures/">Brazil in Pictures</a>.</p>
 
 <h3>Where to go from here?</h3>
 
 
 <p>A cool feature would be a routine querying the <a href="//www.flickr.com/services/api/flickr.photos.getSizes.html">Flickr API</a> for other resolution,
 omitting the need to add all resolutions into a data attribute.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brazil in Pictures]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/"/>
-    <updated>2014-11-28T16:17:18+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures</id>
-    <content type="html"><![CDATA[<iframe class="rlk-autosize rlk-fullwidth" src="//www.flickr.com/photos/rillke/14939106903/in/set-72157646495502983/player/" width="640" height="271" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-
-<p><a href="//www.flickr.com/photos/rillke/15282064709" title="Ilhabela by Rainer Rillke, on Flickr"><img class="rlk-autosize rlk-fullwidth" src="//farm3.staticflickr.com/2948/15282064709_d93402d639_z.jpg" width="640" height="480" alt="Ilhabela" data-sizes='{"240":"d93402d639_m","320":"d93402d639_n","500":"d93402d639","640":"d93402d639_z","800":"d93402d639_c","1024":"d93402d639_b","1600":"28680b1641_h","2000":"a3523f02e3_o"}'></a></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google Summer of Code]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
-    <updated>2014-11-28T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Fun Geek Week]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/"/>
-    <updated>2014-11-27T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference</id>
-    <content type="html"><![CDATA[<p>How much spare time do you enjoy?</p>
 ]]></content>
   </entry>
   
