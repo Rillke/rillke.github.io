@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Javascript | Rillke]]></title>
   <link href="http://blog.rillke.com/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://blog.rillke.com/"/>
-  <updated>2014-11-28T22:51:42+01:00</updated>
+  <updated>2014-11-29T10:14:51+01:00</updated>
   <id>http://blog.rillke.com/</id>
   <author>
     <name><![CDATA[Rainer Rillke]]></name>
@@ -23,8 +23,9 @@
 <h2>About Flickr</h2>
 
 
-<p>The commercial business by Yahoo comes with web and mobile photo editing facilities, a wide range of selectable licenses, slideshow features, an API and a healthy community and
-is in good public standing. With 3.5 million new images uploaded daily, it is certainly one of the largest image hosts.
+<p>The commercial business by Yahoo comes with web and mobile photo editing facilities, a wide range of selectable licenses,
+slideshow features, an API and a healthy community. Flickr is in good public perception.
+With 3.5 million new images uploaded daily, it is certainly one of the largest image hosts.
 Most of its services are for free and I never felt the need for a paid account.</p>
 
 <h2>Embedding images from Flickr</h2>
@@ -77,8 +78,8 @@ in <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Using_ful
 <p>The only weakness is the fixed width and height. What about responsive designs, mobile devices? What about Full-HD screens?
 Wouldn&rsquo;t it be a great opener for your page or post? Here is how:</p>
 
-<p>It is fairly simple to change its size dynamically, so it uses a specified percentage of the available width inside its container and preserves its aspect ratio,
-<a href="//stackoverflow.com/a/12121309">using purely CSS</a>.
+<p>It is fairly simple to change its size dynamically, so it uses a specified percentage of the available width inside its container and
+preserves its aspect ratio, <a href="//stackoverflow.com/a/12121309">using purely CSS</a>.
 <figure class="codepen"></p>
 
 <iframe
@@ -100,10 +101,10 @@ Thus, adding dynamic resize features here wouldn&rsquo;t make sense.</figcaption
 
 <p>Hurray! Eeek, wait, really? There is a hardcoded aspect ratio and the CSS code will have to be placed into a style tag or onto a loaded stylesheet.
 The reason is the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::after"><code>:after</code> pseudo-element</a>,
-which does not exist and therefore has no adjustable style tag.
+which naturally does not exist and therefore has no adjustable style attribute.
 Well, this is certainly a clean way and if your images all share the same aspect ratio, or you have a limited set of aspect ratios, not a big deal.
 Still, one could go the not-so-clean way utilizing a dummy element, dropping the aspect ratio from the style tag and throwing it into
-the style attribute of the dummy:
+the style attribute of that dummy:
 <figure class="codepen"></p>
 
 <iframe
@@ -121,7 +122,8 @@ the style attribute of the dummy:
 
 <p></figure></p>
 
-<p>But wait, what about image quality while increasing the ifame&rsquo;s size? We are in safe hands: Interestingly, Flickr considered that and will load a bigger image on demand.</p>
+<p>Wait. What about image quality while increasing the ifame&rsquo;s size? <br />
+We are in safe hands: Interestingly, Flickr considered that and will load a bigger image on demand.</p>
 
 <p>Statically linked images (also known as <em>hotlinking</em>) are a little trickier to treat because they will not automatically load higher resolution versions.
 That is where we&rsquo;ll have to bring JavaScript into play.</p>
@@ -187,7 +189,7 @@ That is where we&rsquo;ll have to bring JavaScript into play.</p>
 
 
 <p>A cool feature would be a routine querying the <a href="//www.flickr.com/services/api/flickr.photos.getSizes.html">Flickr API</a> for other resolution,
-omitting the need to add all resolutions into a data attribute.</p>
+omitting the need to add all resolutions into a <code>data-sizes</code> attribute.</p>
 ]]></content>
   </entry>
   
