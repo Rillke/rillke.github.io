@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Students | Rillke]]></title>
-  <link href="http://blog.rillke.com/blog/categories/students/atom.xml" rel="self"/>
-  <link href="http://blog.rillke.com/"/>
-  <updated>2014-11-29T10:14:51+01:00</updated>
-  <id>http://blog.rillke.com/</id>
+  <link href="https://blog.rillke.com/blog/categories/students/atom.xml" rel="self"/>
+  <link href="https://blog.rillke.com/"/>
+  <updated>2014-11-29T15:26:56+01:00</updated>
+  <id>https://blog.rillke.com/</id>
   <author>
     <name><![CDATA[Rainer Rillke]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Google Summer of Code]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
     <updated>2014-11-28T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
+    <id>https://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Fun Geek Week]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/"/>
     <updated>2014-11-27T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference</id>
+    <id>https://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference</id>
     <content type="html"><![CDATA[<p>How much spare time do you enjoy?</p>
 ]]></content>
   </entry>

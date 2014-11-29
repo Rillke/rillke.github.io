@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Rillke]]></title>
-  <link href="http://blog.rillke.com/atom.xml" rel="self"/>
-  <link href="http://blog.rillke.com/"/>
-  <updated>2014-11-29T10:14:51+01:00</updated>
-  <id>http://blog.rillke.com/</id>
+  <link href="https://blog.rillke.com/atom.xml" rel="self"/>
+  <link href="https://blog.rillke.com/"/>
+  <updated>2014-11-29T15:26:56+01:00</updated>
+  <id>https://blog.rillke.com/</id>
   <author>
     <name><![CDATA[Rainer Rillke]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Scaling Embedded Flickr Images]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/"/>
     <updated>2014-11-28T18:55:06+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images</id>
+    <id>https://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images</id>
     <content type="html"><![CDATA[<p><a href="//www.flickr.com/photos/rillke/sets">Flickr</a> is a great site for hosting and sharing photos publicly.</p>
 
 <h2>About Flickr</h2>
@@ -167,7 +167,7 @@ That is where we&rsquo;ll have to bring JavaScript into play.</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>How about a live example? Check out <a href="http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/">Brazil in Pictures</a>.</p>
+<p>How about a live example? Check out <a href="https://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/">Brazil in Pictures</a>.</p>
 
 <h3>Where to go from here?</h3>
 
@@ -179,9 +179,9 @@ omitting the need to add all resolutions into a <code>data-sizes</code> attribut
   
   <entry>
     <title type="html"><![CDATA[Brazil in Pictures]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/"/>
     <updated>2014-11-28T16:17:18+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures</id>
+    <id>https://blog.rillke.com/blog/2014/11/28/brazil-in-pictures</id>
     <content type="html"><![CDATA[<iframe class="rlk-autosize rlk-fullwidth" src="//www.flickr.com/photos/rillke/14939106903/in/set-72157646495502983/player/" width="640" height="271" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 
@@ -191,18 +191,18 @@ omitting the need to add all resolutions into a <code>data-sizes</code> attribut
   
   <entry>
     <title type="html"><![CDATA[Google Summer of Code]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/28/google-summer-of-code/"/>
     <updated>2014-11-28T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
+    <id>https://blog.rillke.com/blog/2014/11/28/google-summer-of-code</id>
     <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Fun Geek Week]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/"/>
     <updated>2014-11-27T16:08:57+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference</id>
+    <id>https://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference</id>
     <content type="html"><![CDATA[<p>How much spare time do you enjoy?</p>
 ]]></content>
   </entry>

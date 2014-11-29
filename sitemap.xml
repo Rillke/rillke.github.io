@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/</loc>
+    <loc>https://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/</loc>
     <lastmod>2014-11-28T18:55:06+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/</loc>
+    <loc>https://blog.rillke.com/blog/2014/11/28/brazil-in-pictures/</loc>
     <lastmod>2014-11-28T16:17:18+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://blog.rillke.com/blog/2014/11/28/google-summer-of-code/</loc>
+    <loc>https://blog.rillke.com/blog/2014/11/28/google-summer-of-code/</loc>
     <lastmod>2014-11-28T16:08:57+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/</loc>
+    <loc>https://blog.rillke.com/blog/2014/11/27/libre-graphics-meeting-and-microsoft-student-technology-conference/</loc>
     <lastmod>2014-11-27T16:08:57+01:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://blog.rillke.com/blog/archives/</loc>
-    <lastmod>2014-11-29T10:14:51+01:00</lastmod>
+    <loc>https://blog.rillke.com/blog/archives/</loc>
+    <lastmod>2014-11-29T15:26:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://blog.rillke.com/</loc>
-    <lastmod>2014-11-29T10:14:51+01:00</lastmod>
+    <loc>https://blog.rillke.com/</loc>
+    <lastmod>2014-11-29T15:26:56+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://blog.rillke.com/baidu_verify_T6qY5XhRLo.html</loc>
+    <lastmod>2014-11-29T15:20:23+01:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://blog.rillke.com/googleb7e0be5322728e67.html</loc>
+    <lastmod>2014-11-29T15:20:23+01:00</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>

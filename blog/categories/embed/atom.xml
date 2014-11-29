@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Embed | Rillke]]></title>
-  <link href="http://blog.rillke.com/blog/categories/embed/atom.xml" rel="self"/>
-  <link href="http://blog.rillke.com/"/>
-  <updated>2014-11-29T10:14:51+01:00</updated>
-  <id>http://blog.rillke.com/</id>
+  <link href="https://blog.rillke.com/blog/categories/embed/atom.xml" rel="self"/>
+  <link href="https://blog.rillke.com/"/>
+  <updated>2014-11-29T15:26:56+01:00</updated>
+  <id>https://blog.rillke.com/</id>
   <author>
     <name><![CDATA[Rainer Rillke]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Scaling Embedded Flickr Images]]></title>
-    <link href="http://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/"/>
+    <link href="https://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images/"/>
     <updated>2014-11-28T18:55:06+01:00</updated>
-    <id>http://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images</id>
+    <id>https://blog.rillke.com/blog/2014/11/28/how-to-dynamically-scale-embedded-flickr-images</id>
     <content type="html"><![CDATA[<p><a href="//www.flickr.com/photos/rillke/sets">Flickr</a> is a great site for hosting and sharing photos publicly.</p>
 
 <h2>About Flickr</h2>
